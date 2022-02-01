@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+<title>ACCOUNT OPENING FORM </title>
+<head>
+    <link rel="stylesheet" href="./account_form.css">
+</head>
+<body>
+    <div ><h1 class="heading"><u>Account Opening Form</u></h1><br><br></div>
+<form action="./login1.html" method="post" target="blank" autocomplete="on">
+<label for="Name">Name</label>
+    <select id="name">
+        <option value="Mr.">Mr.</option>
+        <option value="Mrs.">Mrs.</option>
+        <option value="Ms.">Ms.</option>
+    </select>
+    <input name="First name"  type="text" size="10" placeholder="First Name" required>
+    <input name="Last name"  type="text" size="10" placeholder="Last Name" required><br><br>
+    
+<label for="Account Type">Account Type</label>
+    <select id="Account Type">
+       <option value="Select--">Select--</option>
+       <option value="saving account">saving account</option>
+       <option value="Private Banking">Private Banking</option>
+       <option value="Priority Banking">Priority Banking</option>
+       <option value="Preferred Banking">Preferred Banking</option>
+       <option value="Time Deposit">Time Deposit</option>
+</select><br><br>
+
+<label for="Id Card Number">Id Card Number</label>
+    <input type="numeric" size="10" placeholder="eg.12345" required><br><br>
+
+<label for="Monthly Salary">Monthly Salary</label>
+    <input type="numeric" size="10" placeholder="USD" required><br><br>
+
+<label for="gender">Gender</label><br><br>
+    <input name="gender" type="radio" id="Female" required>
+    <label name="gender" for="female">Female</label><br>
+    <input name="gender" type="radio" id="Male" required>
+    <label name="gender" for="male">male</label><br><br>
+    
+<label for="Date of birth">Date of birth</label>
+    <input type="date" id="Date of birth" required><br><br>
+ 
+<label for="Marital Status">Marital Status</label><br><br>
+    <input type="radio" id="Single" required>
+    <label for="Single">Single</label><br>
+    
+    <input type="radio" id="Married" required>
+    <label for="Married">Married</label><br>
+    
+    <input type="radio" id="Divorced" required>
+    <label for="Divorced">Divorced</label><br>
+    
+    <input type="radio" id="Widow(er)" required>
+    <label for="Widow(er)">Widow(er)</label><br><br>
+
+    <label for="Contact Number">Phone</label>
+    <input type="numeric" name="Country code" value="+91" size="2" required>
+    <input type="numeric" name="Phone" size="10" maxlength="10" required><br><br>
+    
+    <label for="email">Email</label>
+    <input type="email " placeholder="eg:john@gmail.com" required><br><br>
+
+    <label for="favourite color">favourite color</label>
+    <input type="color" placeholder="eg:john@gmail.com" required><br><br>
+
+    <label for="Address">Address</label>
+    <textarea name="address" size="50" required ></textarea><br><br>
+    
+    <label for="City">City</label>
+<select id="City">
+    <option value="select--">Select--</option>
+    <option value="Indore">Indore</option>
+    <option value="Bhopal">Bhopal</option>
+    <option value="Banglore">Banglore</option>
+    <option value="Pune">Pune</option>
+    <option value="Mumbai">Mumbai</option>
+    <option value="Delhi">Delhi</option>
+    <option value="Gurugram">Gurugram</option>
+    <option value="Chennai">Chennai</option>
+    <option value="Hydrabad">Hydrabad</option>
+</select><br><br>
+
+<label for="State">State</label>
+<select id="State">
+    <option value="select--">Select--</option>
+    <option value="Madhya pradesh">Madhya pradesh</option>
+    <option value="Uttar pradesh">Uttar pradesh</option>
+    <option value="Uttrakhand">Uttrakhand</option>
+    <option value="Assam">Assam</option>
+    <option value="Bihar">Bihar</option>
+    <option value="Chhattisgarh ">Chhattisgarh </option>
+    <option value="Gurugram">Gurugram</option>
+    <option value="Chennai">Chennai</option>
+    <option value="Hydrabad">Hydrabad</option>
+</select><br><br>
+
+<label for="postal code">Postal Code</label>
+<input type="numeric" size="6" maxlength="6" required><br><br>
+
+
+<input class="btn" type="submit" value="submit">
+</form>
+</body>
+</html>

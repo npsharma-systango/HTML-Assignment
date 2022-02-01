@@ -1,0 +1,27 @@
+h1 {
+
+    text-align:center;
+    color:white;
+
+}
+body {
+
+    background: black;
+   
+}
+label
+{ color:white;
+}
+
+.btn:hover{
+
+    color:cyan;
+    background-color: black;
+
+}
+.heading :hover
+{
+    color:cyan;
+}
+
+}

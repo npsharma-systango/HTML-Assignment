@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>
+        click on "try" button to create a button element with "click"
+      </p>
+ <button type="button" id="B1"onclick="myfunction()">try</button><br><br>
+  
+<button type="button" id="B2" onclick="myfunction1()">try</button><br><br>
+  
+<button type="button" id="B3" onclick="myfunction2()">try</button>
+<script>
+
+function myfunction()
+  {   //
+  var a=document.getElementById("B1");
+  a.innerText="Button";
+  a.style.fontSize= "large";
+
+  }
+
+function myfunction1()
+  {
+    alert("Hello! I'm alert box");
+  }
+
+function myfunction2()
+  {
+  var b=document.getElementById("B3");
+  b.style.backgroundColor="red";
+  b.style.borderColor="white";
+  b.style.color="white";
+  b.style.fontSize= "large";
+  
+  }
+
+</script>
+    
+</body>
+</html>

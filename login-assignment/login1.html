@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <title>login form</title>
+     <link rel="stylesheet" href="./login1.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+
+<h3>Login here to move forward!!</h3>
+
+
+  <button onclick="document.getElementById('id01').style.display='block'">Login</button>
+
+
+<div  id="id01" class="modal">
+  
+  <form class="modal-content animate" action="./table.html" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <!-- <img src="img_avatar2.png" alt="Avatar" class="avatar"> -->
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input class="input" type="text" placeholder="Enter Username" name="uname" required><br>
+
+      <label for="psw"><b>Password</b></label>
+      <input class="input" type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit">Login</button><br>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#0c0b0b">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+    <a href="./account_opening_form.html" style="color:black;">Back to registration page!</a>
+
+
+
+  </form>
+</div>
+<script src="./login.js"></script>
+</body>
+</html>
